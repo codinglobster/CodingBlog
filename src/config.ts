@@ -1,11 +1,11 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/",
+  website: "https://codinglobster.github.io/CodingBlog/",
   author: "Jeff",
   desc: "A Astro blog.",
   title: "CodingLobster",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "lobster.jpg",
   lightAndDarkMode: true,
   postPerPage: 10,
 };
@@ -13,10 +13,10 @@ export const SITE: Site = {
 export const LOCALE = ["en-EN"]; // set to [] to use the environment default
 
 export const LOGO_IMAGE = {
-  enable: false,
+  enable: true,
   svg: true,
-  width: 216,
-  height: 46,
+  width: 60,
+  height: 60,
 };
 
 export const SOCIALS: SocialObjects = [
