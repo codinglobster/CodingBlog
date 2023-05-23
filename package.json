@@ -2,6 +2,7 @@
   "name": "astro-paper",
   "version": "2.3.0",
   "private": false,
+  "homepage": "CodingBlog",
   "scripts": {
     "dev": "astro check --watch & astro dev",
     "start": "astro dev",
