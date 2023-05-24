@@ -3,8 +3,8 @@ import { LOGO_IMAGE, SITE } from "@config";
 import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
-import logoPNG from "/CodingBlog/assets/logo.png";
-import logoSVG from "/CodingBlog/assets/logo.svg";
+const logoPNG = `/CodingBlog/assets/logo.png`;
+const logoSVG = `/CodingBlog/assets/logo.svg?url`;
 
 export interface Props {
   activeNav?: "posts" | "tags" | "about" | "search";
@@ -60,7 +60,7 @@ const { activeNav } = Astro.props;
         <ul id="menu-items" class="display-none sm:flex">
           <li>
             <a
-              href=`/CodingBlog/posts`
+              href="/CodingBlog/posts"
               class={activeNav === "posts" ? "active" : ""}
             >
               Posts
@@ -68,7 +68,7 @@ const { activeNav } = Astro.props;
           </li>
           <li>
             <a
-              href=`/CodingBlog/tags`
+              href="/CodingBlog/tags"
               class={activeNav === "tags" ? "active" : ""}
             >
               Tags
@@ -76,7 +76,7 @@ const { activeNav } = Astro.props;
           </li>
           <li>
             <a
-              href=`/CodingBlog/about`
+              href="/CodingBlog/about"
               class={activeNav === "about" ? "active" : ""}
             >
               About
@@ -84,7 +84,7 @@ const { activeNav } = Astro.props;
           </li>
           <li>
             <LinkButton
-              href=`/CodingBlog/search`
+              href="/CodingBlog/search"
               className={`focus-outline p-3 sm:p-1 ${
                 activeNav === "search" ? "active" : ""
               }`}

@@ -1,6 +1,7 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
+import svgLoader from "vite-svg-loader";
 import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
@@ -36,6 +37,7 @@ export default defineConfig({
     extendDefaultPlugins: true,
   },
   vite: {
+    plugins: [svgLoader()],
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },

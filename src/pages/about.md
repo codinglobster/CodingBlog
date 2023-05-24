@@ -3,34 +3,12 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+When I first started learning to program, I felt as clumsy as a lobster, tapping away with the tips of my pincers. It took me a long time to produce a simple 'Hello World'. Everything felt like magic, and React seemed like a snow-capped mountain, impossible to climb.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+But after many years of development, I still feel like I'm just scaling one mountain only to find countless more waiting for me. I'm still a lobster, only now I can tap a little faster. I hope that one day, I'll be able to see the ocean beyond these mountains. Maybe there's nothing there, but I hope there is.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+I am a lobster in the world of programming.
 
 <div>
-  <img src="/CodingBlog/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="/CodingBlog/astropaper-og.jpg?fix" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
-
-## Tech Stack
-
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
