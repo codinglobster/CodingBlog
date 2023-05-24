@@ -1,6 +1,7 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
+import AstroMdImages from "astro-md-image-integration";
 import svgLoader from "vite-svg-loader";
 import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
@@ -19,6 +20,9 @@ export default defineConfig({
     }),
     react(),
     sitemap(),
+    AstroMdImages({
+      root: "../../content",
+    }),
   ],
   markdown: {
     remarkPlugins: [
